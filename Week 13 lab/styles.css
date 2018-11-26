@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+}
+
+div {
+    background-color: white;
+    height: 300px;
+}
+
+#f-name,
+#l-name {
+    width: 49%;
+    font-size: 20px;
+    display: inline-block;
+}
+
+@media only screen and (max-width: 767px) {
+    #f-name {
+        background-color: blue;
+        display: block;
+}
+    #l-name {
+        background-color: yellow;
+    }
+    #f-name,
+    #l-name {
+        font-size: 16px;
+        width: 100%;
+    }
+}
